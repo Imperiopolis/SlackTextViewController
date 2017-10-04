@@ -135,7 +135,7 @@ NS_CLASS_AVAILABLE_IOS(7_0) @interface SLKTextViewController : UIViewController 
  @param style A constant that specifies the style of main table view that the controller object is to manage (UITableViewStylePlain or UITableViewStyleGrouped).
  @return An initialized SLKTextViewController object or nil if the object could not be created.
  */
-- (instancetype __nullable)initWithTableViewStyle:(UITableViewStyle)style;
+- (instancetype)initWithTableViewStyle:(UITableViewStyle)style;
 
 /**
  Initializes a collection view controller and configures the collection view with the provided layout.
