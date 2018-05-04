@@ -49,6 +49,8 @@ NS_CLASS_AVAILABLE_IOS(7_0) @interface SLKTextViewController : UIViewController 
                                                                                 UICollectionViewDelegate, UICollectionViewDataSource,
                                                                                 UIGestureRecognizerDelegate, UIAlertViewDelegate>
 
+@property (nonatomic, strong) NSLayoutConstraint *keyboardHC;
+
 /** The main table view managed by the controller object. Created by default initializing with -init or initWithNibName:bundle: */
 @property (nonatomic, readonly) UITableView *_Nullable tableView;
 
